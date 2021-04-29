@@ -88,7 +88,7 @@ class Bar(Graph):
                 if len(val)>5:
                     pushtext = 10
                  
-                x = (x_bottom + sign * self.style.value_font_size)+pushtext
+                x = (x_bottom + sign * self.style.value_font_size/2)+pushtext
                 y = y_center
             else:
                 x = x_center
