@@ -84,7 +84,7 @@ class Bar(Graph):
 
         if self.print_values_position == 'top':
             if self.horizontal:
-                x = (x_bottom + sign * self.style.value_font_size)
+                x = (x_bottom + sign * self.style.value_font_size)+10
                 y = y_center
             else:
                 x = x_center
