@@ -139,6 +139,8 @@
 
 {{ id }}.tooltip .x_label {
   font-size: .6em;
+  color: #FFFFFF;
+  
   fill: {{ style.foreground_strong }};
 }
 
